@@ -901,6 +901,14 @@
 
 - type: entity
   parent: AirlockMaint
+  id: AirlockMaintBrigmedicLocked
+  suffix: Brigmedic, Locked
+  components:
+  - type: AccessReader
+    access: [["Brigmedic"]]
+
+- type: entity
+  parent: AirlockMaint
   id: AirlockMaintHOPLocked
   suffix: HeadOfPersonnel, Locked
   components:
