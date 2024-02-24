@@ -154,7 +154,7 @@
   - type: AccessReader
     access: [["Security"]]
 
-#Security hardsuit
+#Brigmedic hardsuit
 - type: entity
   id: SuitStorageBrigmedic
   parent: SuitStorageBase
